@@ -1,6 +1,6 @@
 {
   "name": "@modac/tsconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tsconfig for modac repositories",
   "main": "tsconfig.json",
   "author": "Modell Aachen GmbH",
