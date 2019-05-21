@@ -1,0 +1,11 @@
+{
+  "name": "@modac/tsconfig",
+  "version": "0.1.0",
+  "description": "tsconfig for modac repositories",
+  "main": "tsconfig.json",
+  "author": "Modell Aachen GmbH",
+  "license": "GPL-3.0",
+  "peerDependencies": {
+    "typescript": "^3.4.3"
+  }
+}
