@@ -1,0 +1,15 @@
+name: Publish on npm
+on: [pull_request]
+
+jobs:
+  publish:
+    name: Publish on npm
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm publish --dry-run
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
