@@ -1,5 +1,8 @@
 name: Publish on npm
-on: [pull_request]
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   publish:
